@@ -26,10 +26,11 @@ main()
             {
                 wyr2.replace(i-5, 6, koniunkcja(wyr2[i-4], wyr2[i-1]));
             }
+            i=0;
         }
+        else
+            i++;
 
-
-        i++;
     }
     cout<<wyr2<<endl;
 
