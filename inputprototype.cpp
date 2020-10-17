@@ -6,7 +6,7 @@
 using namespace std;
 
 //FUNKCJE (definicje na końcu)
-char koniunkcja(char a, char b);
+string koniunkcja(char a, char b);
 
 
 
@@ -40,13 +40,13 @@ main()
 
 
 
-char koniunkcja(char a, char b)
+string koniunkcja(char a, char b)
 {
     if(a=='1' && b=='1')
     {
-        return '1'
+        return "1";
     }
-    return '0'
+    return "0";
 }
 /*
 NOTATKI
